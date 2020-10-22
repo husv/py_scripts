@@ -1,4 +1,4 @@
-name: py_scripts
+name: hostloc
 
 on:
   workflow_dispatch:
