@@ -1,4 +1,4 @@
-name: py_scripts
+name: textnow
 
 on:
   workflow_dispatch:
