@@ -38,7 +38,7 @@ def main():
     try:
       if ("errorCode" in response.text):
           print(response.json()['errorCode'])
-      elif (response.json().has_key('description')):
+      else:
           description = response.json()['description']
           print(f"抽奖获得{description}")
     except:
@@ -48,7 +48,7 @@ def main():
       response2 = s.get(url2,headers=headers)
       if ("errorCode" in response2.text):
           print(response.json()['errorCode'])
-      elif (response2.json().has_key('description')):
+      else:
           description = response2.json()['description']
           print(f"抽奖2获得{description}")
     except:
