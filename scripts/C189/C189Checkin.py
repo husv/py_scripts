@@ -45,11 +45,11 @@ def main():
       print(f"抽奖1完成，解析时失败")
           
     try:
-      response2 = s.get(url2,headers=headers)
-      if ("errorCode" in response2.text):
+      response = s.get(url2,headers=headers)
+      if ("errorCode" in response.text):
           print(response.json()['errorCode'])
       else:
-          description = response2.json()['description']
+          description = response.json()['description']
           print(f"抽奖2获得{description}")
     except:
       print(f"抽奖2完成，解析时失败")
