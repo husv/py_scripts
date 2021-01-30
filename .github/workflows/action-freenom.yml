@@ -15,7 +15,6 @@
 name: 'Freenom Auto Renew'
 
 on:
-  push:
   workflow_dispatch:
   schedule:
     - cron: 0 5 * * *
