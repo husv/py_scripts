@@ -1,8 +1,7 @@
 name: 'EUserv Auto Extend'
 
 on:
-  push:
-    branches: [ master ]
+  workflow_dispatch:
   schedule:
     - cron: '50 7 * * *'
 
