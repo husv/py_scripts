@@ -1,4 +1,4 @@
-name: hostloc
+name: 'HostLoc Get points'
 
 on:
   workflow_dispatch:

@@ -1,4 +1,4 @@
-name: cloud_189
+name: 'Cloud 189 Checkin'
 
 on:
   workflow_dispatch:
